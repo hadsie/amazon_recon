@@ -11,8 +11,8 @@ This tool is designed to work with multiple bank and credit card statement forma
 2. Write a parser function that matches the following structure:
    ```python
    def parse_my_bank(file_path: str) -> tuple[list[dict], list[dict]]:
-       \"\"\"
-       Parse a credit card statement file for MyBank.
+       """
+       Parse a statement from MyBank.
 
        Args:
            file_path (str): Path to the statement file.
@@ -20,11 +20,11 @@ This tool is designed to work with multiple bank and credit card statement forma
        Returns:
            tuple[list[dict], list[dict]]:
                - Regular transactions: Each transaction is a dictionary with:
-                   - 'cc_date': Transaction date as a datetime object.
-                   - 'cc_description': Description of the transaction.
-                   - 'cc_amount': Amount of the transaction (positive for charges, negative for refunds).
+                   - 'date': Transaction date as a datetime object.
+                   - 'description': Description of the transaction.
+                   - 'amount': Amount of the transaction (positive for charges, negative for refunds).
                - Refund transactions: Same structure but separated as refunds.
-       \"\"\"
+       """
        # Your parsing logic here
    ```
 
