@@ -94,4 +94,3 @@ options:
 ## Contributing
 
 Feel free to submit pull requests for additional bank or credit card formats, new features, or bug fixes.
-"""
