@@ -87,7 +87,7 @@ options:
 
 1. **Archived Orders**: The Amazon Order History Reporter does not include "archived" orders, so check that first if you're seeing unreconciled transactions.
 2. **Data Integrity**: The data is a bit of a mess, so again, if you run into issues it could just be an error parsing the data. There may also be some issues with timezones, though I've tried to account for that by allowing order matching within a couple days between the statement and the amazon order date.
-3. **Limited statement parsers**: I've only written in support for RBC as that was the bank I was using at the time of writing. Non-supported statement formats require writing a custom parser plugin. But this should be straight forward enough, check the README in the plugins folder.
+3. **Limited statement parsers**: I've only written in support for RBC as that was the bank I was using at the time of writing. Unsupported statement formats require writing a custom parser. But this should be straight forward enough, check the [README](https://github.com/hadsie/amazon_recon/blob/main/parsers/README.md) in the parsers folder.
 
 ---
 
