@@ -4,7 +4,7 @@
 
 This tool is designed to work with multiple bank and credit card statement formats by allowing custom parsers.
 
-### Plugin Structure
+### Parser Structure
 
 1. Create a new Python file in the `parsers` directory (e.g., `my_bank.py`).
 
@@ -75,7 +75,7 @@ I’ve attached:
 
 Excluded transactions: Any line containing "AMAZON WEB SERVICES".
 
-Could you create a Python function `parse_my_bank` to process this statement format and return two lists: regular transactions and refunds? Please also provide integration instructions for the tool. Refer to the GitHub page here for more details: https://github.com/hadsie/amazon_recon/parsers/README.md.
+Could you create a Python function `parse_my_bank` to process this statement format and return two lists: regular transactions and refunds? Please also provide integration instructions for the tool. Refer to the GitHub page here for more details: [https://github.com/hadsie/amazon_recon/parsers/README.md](https://github.com/hadsie/amazon_recon/blob/main/parsers/README.md).
 
 ### Step 3: Submit the Request to the LLM
 
